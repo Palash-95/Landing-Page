@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 0 24px;
+}
