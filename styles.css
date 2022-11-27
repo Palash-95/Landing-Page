@@ -63,3 +63,36 @@ a {
    width: 50vw;
    flex: 1;
 }
+
+#favourite{
+    padding: 48px;
+}
+
+#favourite h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 24px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.item img{
+    flex: 1;
+    width: 20vw;
+    border-radius: 10px;
+}
