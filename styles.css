@@ -50,7 +50,7 @@ a {
     margin: 0;
 }
 
-.hero button{
+ button{
     background-color: #3882F6;
     padding: 4px 16px;
     border-radius: 5px;
@@ -114,4 +114,39 @@ a {
     font-size: 24px;
     font-weight: bold;
     margin-top: -36px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 10%;
+}
+
+.sign-up .call-to-action{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    border-radius: 8px;
+    padding: 24px 10%;
+    flex: 1;
+}
+
+.sign-up button{
+    border: #F9FAF8 solid 2px;
+}
+
+.sign-up h2{
+    margin: 0;
+    margin-bottom: 4px;
+    color: #F9FAF8;
+    font-size: 1em;
+}
+
+.sign-up p {
+    color: #E5E7EB;
+    margin: 0;
+    font-size: 0.8em;
 }
