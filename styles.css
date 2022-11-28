@@ -128,7 +128,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 24px;
     border-radius: 8px;
     padding: 24px 10%;
     flex: 1;
@@ -136,6 +135,7 @@ a {
 
 .sign-up button{
     border: #F9FAF8 solid 2px;
+    flex-shrink: 0;
 }
 
 .sign-up h2{
